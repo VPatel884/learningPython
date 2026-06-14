@@ -9,6 +9,8 @@ if age > 18:
 else :
     print("You are not eligible to vote.")
 
+# +-++-++-++-++-++-++-++-++-++-++-++-++-++-++-++-+
+
 marks = 40
 if marks >= 90:
     print("Your grade is A.")
@@ -20,4 +22,6 @@ elif 60 <= marks < 70:
     print("Your grade is D.")
 else :
     print("Your grade is E. Improve your marks.")
+
+# +-++-++-++-++-++-++-++-++-++-++-++-++-++-++-++-+
 
