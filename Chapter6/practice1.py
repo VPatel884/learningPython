@@ -47,7 +47,7 @@ print("Problem 5")
 starNum = 1
 star = ""
 
-while starNum <= 3:
+while starNum <= 4:
     star += "*"
     print(star)
     starNum += 1
