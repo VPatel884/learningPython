@@ -24,3 +24,19 @@ addDataInReport = open("Chapter8/report.txt", "a")
 addDataInReport.write("\naddress : Bengaluru")
 
 addDataInReport.close()
+
+# Print number of lines in report.txt
+
+with open("Chapter8/report.txt") as f:
+    data = f.readlines()
+    # print(data)
+    print("Total number of lines in report is", len(data))
+
+# Print each line in report.txt
+
+with open("Chapter8/report.txt") as f:
+    print("Line 1",f.readline())
+    print("Line 2",f.readline())
+    print("Line 3",f.readline())
+    print("Line 4",f.readline())
+    print(f.read()) # Prints empaty after all realines
